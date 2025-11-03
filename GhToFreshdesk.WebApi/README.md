@@ -31,6 +31,18 @@ You can set them in **`Properties/launchSettings.json`**, or export them in your
 
 ---
 
+## Authorization
+
+The API endpoints are protected using JWT Bearer authentication. To access the API, requests must include an `Authorization` header with a valid Bearer token.
+
+Example header:
+
+```
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwZXJtIjoiam9icyIsImlzcyI6ImdoZmQubG9jYWwiLCJhdWQiOiJnaGZkLmFwaSJ9.-kPOze6NQH8fH_of8pYk2Qn1QWW7Yu0NdApGHT7p868
+```
+
+---
+
 ## Data Flow (Async)
 
 1. `POST /api/jobs/sync-github-user?...` → **Accepted** with `jobId`.
