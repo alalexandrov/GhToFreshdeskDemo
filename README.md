@@ -14,7 +14,7 @@ It uses **Clean Architecture**, **CQRS with MediatR**, **FluentValidation**, **E
 
 - .NET 9 SDK
 - A GitHub **Personal Access Token** (PAT) – fine-grained or classic; public user info is enough.
-- A Freshdesk **API Key** for your subdomain.
+- A Freshdesk **API Key** for your subdomain (e.g., `alexdemo.freshdesk.com`).
 
 > **Note:** Freshdesk will return **409** if you try to create a contact with an email that belongs to your agent/admin account. Use a different email (e.g., `octocat@example.com`) when testing.
 
@@ -28,6 +28,18 @@ The app reads tokens from these **environment variables** (double underscores ma
 - `Freshdesk__ApiKey` → binds to `Freshdesk:ApiKey`
 
 You can set them in **`Properties/launchSettings.json`**, or export them in your shell.
+
+---
+
+## Authorization
+
+The API endpoints are protected using JWT Bearer authentication. To access the API, requests must include an `Authorization` header with a valid Bearer token.
+
+Example header:
+
+```
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwZXJtIjoiam9icyIsImlzcyI6ImdoZmQubG9jYWwiLCJhdWQiOiJnaGZkLmFwaSJ9.-kPOze6NQH8fH_of8pYk2Qn1QWW7Yu0NdApGHT7p868
+```
 
 ---
 
