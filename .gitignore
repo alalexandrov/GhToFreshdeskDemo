@@ -1,0 +1,6 @@
+# Rider / IntelliJ
+.idea/
+
+# Build outputs
+**/bin/
+**/obj/

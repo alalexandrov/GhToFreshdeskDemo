@@ -1,6 +1,7 @@
 using GhToFreshdesk.Application;
 using GhToFreshdesk.Infrastructure;
 using GhToFreshdesk.Infrastructure.Persistence;
+using GhToFreshdesk.WebApi;
 using GhToFreshdesk.WebApi.Middleware;
 using GhToFreshdesk.WebApi.Workers;
 
@@ -11,7 +12,9 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddJwtAuthorization(builder.Configuration);
+builder.Services.AddSwaggerConfiguration();
 
 builder.Services.AddHostedService<SyncJobWorker>();
 
@@ -20,6 +23,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseGlobalExceptionHandling();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

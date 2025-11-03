@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using GhToFreshdesk.Application.Jobs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GhToFreshdesk.WebApi.Controllers;
 
@@ -8,6 +9,7 @@ namespace GhToFreshdesk.WebApi.Controllers;
 [Route("api/jobs")]
 public sealed class JobsController(IMediator mediator) : ControllerBase
 {
+    [Authorize(Policy = "JobsOnly")]
     [HttpPost("sync-github-user")]
     public async Task<IActionResult> Enqueue([FromQuery] string login, [FromQuery] string tenant, CancellationToken ct)
     {
@@ -22,6 +24,7 @@ public sealed class JobsController(IMediator mediator) : ControllerBase
         return job is null ? NotFound() : Ok(job);
     }
 
+    [Authorize(Policy = "JobsOnly")]
     [HttpPost("{id:guid}/retry")]
     public async Task<IActionResult> Retry(Guid id, CancellationToken ct)
     {

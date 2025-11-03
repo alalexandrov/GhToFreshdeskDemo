@@ -1,0 +1,16 @@
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/bin/Debug/net9.0/GhToFreshdesk.Application.deps.json
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/bin/Debug/net9.0/GhToFreshdesk.Application.dll
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/bin/Debug/net9.0/GhToFreshdesk.Application.pdb
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/bin/Debug/net9.0/GhToFreshdesk.Domain.dll
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/bin/Debug/net9.0/GhToFreshdesk.Domain.pdb
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.csproj.AssemblyReference.cache
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.AssemblyInfoInputs.cache
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.AssemblyInfo.cs
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.csproj.CoreCompileInputs.cache
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.sourcelink.json
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFres.303758B2.Up2Date
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.dll
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/refint/GhToFreshdesk.Application.dll
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/GhToFreshdesk.Application.pdb
+/Users/aleksandaraleksandrov/RiderProjects/GhToFreshdesk/GhToFreshdesk.Application/obj/Debug/net9.0/ref/GhToFreshdesk.Application.dll
