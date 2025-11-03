@@ -14,7 +14,7 @@ It uses **Clean Architecture**, **CQRS with MediatR**, **FluentValidation**, **E
 
 - .NET 9 SDK
 - A GitHub **Personal Access Token** (PAT) – fine-grained or classic; public user info is enough.
-- A Freshdesk **API Key** for your subdomain (e.g., `alexdemo.freshdesk.com`).
+- A Freshdesk **API Key** for your subdomain.
 
 > **Note:** Freshdesk will return **409** if you try to create a contact with an email that belongs to your agent/admin account. Use a different email (e.g., `octocat@example.com`) when testing.
 
