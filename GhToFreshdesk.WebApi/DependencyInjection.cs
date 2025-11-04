@@ -9,9 +9,9 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddJwtAuthorization(this IServiceCollection services, IConfiguration config)
     {
-        var issuer = config["Jwt:Issuer"];
-        var audience = config["Jwt:Audience"];
-        var signingKey = config["Jwt:SigningKey"];
+        var issuer = config["Jwt:Issuer"]!;
+        var audience = config["Jwt:Audience"]!;
+        var signingKey = config["Jwt:SigningKey"]!;
 
         services
             .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
